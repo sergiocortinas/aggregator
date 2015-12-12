@@ -1,0 +1,86 @@
+/* CSS declarations go here */
+body {
+    padding-bottom:100px;
+}
+
+.hidden_div {
+    display:none;
+}
+
+.container {
+    max-width:700px;
+}
+
+#website_form {
+    border:2px dotted #a5a5a5;
+    padding:10px;
+    margin:15px 10px;
+}
+
+ol {
+    margin-top:20px;
+    margin-left:0;
+    padding:0;
+    list-style: none;
+}
+
+ol li {
+    border:1px solid #d5d5d5;
+    box-shadow: 0 0 10px #ccc;
+    margin:5px 0;
+    padding:10px;
+    counter-increment: item;
+}
+
+ol li .row .col-sm-10:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: #333;
+    color: #f5f5f5;
+    border-radius: 5px;
+    padding:2px 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+ol li p {
+    margin-top:10px;
+}
+
+span.date {
+    margin-top:7px;
+    padding-top:7px;
+    border-top:1px dotted #ccc;
+    font-size: 80%;
+    display:inline-block;
+}
+
+.row.details {
+    margin-top:15px;
+    padding:7px;
+    background-color: #f5f5f5;
+    border:1px solid #d5d5d5;
+}
+
+.row.details p{
+    margin-top:7px;
+}
+
+#form-add-comment {
+    margin-top:20px;
+    padding:10px;
+    border:2px dotted #d5d5d5;
+    border-radius:4px;
+    overflow:hidden;
+}
+
+#form-add-comment input {
+    width:100%;
+}
+
+
+.comment-box {
+    margin:10px 0;
+    border-bottom:1px dotted black;
+    padding-bottom:10px;
+}
